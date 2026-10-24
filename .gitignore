@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local data and generated results
+*.csv
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor and test artifacts
+.vscode/
+.idea/
+.pytest_cache/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
